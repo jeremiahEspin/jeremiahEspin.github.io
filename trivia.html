@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Quiz</title>
+	<script>
+    
+var score = 0
+var i = 1
+var ans = 1
+function submitAnswer(){
+    y = document.getElementById("qans").value
+    var yy=y.toUpperCase();
+    x = document.getElementById("question").value
+if (ans===1){
+    y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+        score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+else if (ans===2){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===3){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+      else if (ans===4){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===5){ 
+	y = document.getElementById("qans").value
+    if(yy==="D"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===6){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===7){ 
+	y = document.getElementById("qans").value
+    if(yy==="A"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===8){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===9){ 
+	y = document.getElementById("qans").value
+    if(yy==="C"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+    else if (ans===10){ 
+	y = document.getElementById("qans").value
+    if(yy==="B"){
+        document.getElementById("question").value="You are right"
+         score++
+    }
+    else {
+        document.getElementById("question").value="You are wrong"
+        
+    }
+    document.view.qscore.value=score
+}
+	ans++; 
+}
+        
+function main(){ 
+if (i===1){ 
+	document.view.qnum.value=i;
+    document.view.qscore.value=0;
+	document.view.question.value ="I open the exhasut and intake valves. what am i? \na)Turbocharger \nb)Alternator \nc)Crankshaft \nd)Camshaft";
+    document.view.qans.value=""
+}
+else if (i===2){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which Engine configuration is popular in smaller cars? \na)v4 \nb)v6 \nc)i4 \nd)i6";
+    document.view.qans.value=""
+}
+    else if (i===3){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="A Turbocharger or Supercharger does what?  \na) make the tramsmisssion shift gears faster\nb)use energy from the alternator \nc)force more air into the engine making it possible to burn more fuel \nd)add extra fuel through the air intake";
+    document.view.qans.value=""
+}
+       else if (i===4){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Modern F1 cars use which engine configuration? \na)Hybrid turbocharged v6 \nb)supercharged v8 \nc)v12 \nd)i4";
+    document.view.qans.value=""
+}
+    else if (i===5){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="What does the clutch do? \na)increases the engine speed \nb)start the engine \nc)stop the vehicle \nd)Connect the engine to the transmission";
+    document.view.qans.value=""
+}
+    else if (i===6){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="an alternator does what?  \na) start the car and harness electricity from the timing belt to power spark plugs \nb)harness energy to give the car a boost \nc)alternate the air fuel ratio \nd) aid the manual transmission to shift faster";
+    document.view.qans.value=""
+}
+    else if (i===7){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="The best sounding car has been voted to be the? \na)lexus lfa \nb)subaru wrx \nc)ford mustang \nd)chevrolet corvette";
+    document.view.qans.value=""
+}else if (i===8){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Which car can run the most power on stock internals?\na)honda civic \nb)dodge viper \nc)toyota supra \nd)nissan gtr";
+    document.view.qans.value=""
+}
+    else if (i===9){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="Paul walker died in which car?  \na) bmw m3\nb) lexus lfa \nc) porsche carrera gt \nd) porsche 918";
+    document.view.qans.value=""
+}
+    else if (i===10){ 
+	document.view.qnum.value=i;	
+	document.view.question.value ="How much power can a toyota supra make on stock internals? \na)around 1000hp \nb)around 600hp \nc)around 300hp \nd) around 1500hp";
+    document.view.qans.value=""
+}
+else if (i===11){
+    alert("You got"+ " " + Math.round(score/(i-1)*100)  + "% for this Trivia Quiz")
+}
+	i++; 
+}
+    </script>
+	<link type="text/css" rel="stylesheet" href="trivia.css">
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+<br>
+<FORM name="view">  
+	Question: &nbsp;<input type="text" name="qnum" size="2" >&nbsp;<input type="button" name="go" value=" Next Question" onClick=main()>
+    <br>
+    <br>
+    Answer:&nbsp;&nbsp;&nbsp; <input type="text" id="qans" size="2">&nbsp;<input type="button" value="Submit Answer" onClick=submitAnswer()>
+	<br>
+    <br>
+    Score: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id= "score" name="qscore" size="2">
+	<br>
+	<br>
+	<TEXTAREA COLS=31 ROWS=9 id="question"  wrap="virtual"></TEXTAREA> 
+</FORM>
+</body>
+</html>
